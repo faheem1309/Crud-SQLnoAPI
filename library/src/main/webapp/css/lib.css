@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8fb;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+.btn.delete {
+    background: #e74c3c;
+}
+.btn.delete:hover {
+    background: #c0392b;
+}
+
+.btn.update {
+    background: #3498db;
+}
+.btn.update:hover {
+    background: #2980b9;
+}
+
+.btn.view {
+    background: #9b59b6;
+}
+.btn.view:hover {
+    background: #8e44ad;
+}

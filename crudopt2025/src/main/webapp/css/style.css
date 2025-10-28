@@ -1,0 +1,131 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  min-height: 100vh;
+  padding: 30px;
+  color: #333;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+/* Form Containers */
+.form-container {
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  width: 350px;
+  color: #fff;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* Labels & Inputs */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #e84118;
+  transform: scale(1.05);
+}
+
+/* Links (Index Page) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 12px 0;
+}
+
+ul li a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: #2c3e50;
+  text-align: center;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background: linear-gradient(135deg, #16a085 0%, #f4d03f 100%);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #2c3e50;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f1f2f6;
+}
+
+table tr:hover {
+  background: #dff9fb;
+}
